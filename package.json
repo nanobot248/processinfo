@@ -1,0 +1,17 @@
+{
+  "name": "processinfo",
+  "version": "0.0.1",
+  "description": "Retrieves information about processes from the system. Currently only Linux is supported using the \"ps\" utility as backend.",
+  "main": "lib/package.js",
+  "scripts": {
+    "test": "mocha test/tests.js"
+  },
+  "keywords": [
+    "ps",
+    "process"
+  ],
+  "author": "Andreas Hubert",
+  "license": "MIT",
+  "dependencies": {
+  }
+}
