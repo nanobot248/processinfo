@@ -10,8 +10,17 @@
     "ps",
     "process"
   ],
-  "author": "Andreas Hubert",
-  "license": "MIT",
-  "dependencies": {
-  }
+  "author": {
+    "name": "Andreas Hubert",
+    "email": "nanobot248@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nanobot248/processinfo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nanobot248/processinfo/issues"
+  },
+  "homepage": "https://github.com/nanobot248/processinfo",
+  "license": "MIT"
 }
