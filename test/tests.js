@@ -5,8 +5,13 @@ describe("blabla", function() {
   it("should do something", function(done) {
     var ps = new Ps();
     ps.get(function(err, data) {
-      console.log("ps data: ", data);
-      done(err, data);
+      try {
+        assert(data instanceof Array);
+        assert(data.length > 0);
+        done();
+      } catch(ex) {
+        done(ex);
+      }
     });
   });
 });
