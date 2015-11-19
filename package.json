@@ -1,6 +1,6 @@
 {
   "name": "processinfo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Retrieves information about processes from the system. Currently only Linux is supported using the \"ps\" utility as backend.",
   "main": "lib/package.js",
   "scripts": {
