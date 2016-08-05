@@ -2,7 +2,7 @@
 nodejs module for getting process information. Uses "ps" and currently only works in Linux and other environments with a compatible "ps" command.
 
 # Usage
-```
+```javascript
 var Ps = require("../lib/package.js");
 
 var ps = new Ps();
